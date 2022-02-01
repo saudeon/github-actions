@@ -1,0 +1,6 @@
+name: 'title lint for PR'
+description: 'RegEx for conventional-commits as PR title.'
+
+runs:
+  using: node12
+  main: entrypoint.js
